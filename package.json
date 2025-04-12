@@ -5,7 +5,7 @@
   "homepage": "https://github.com/stpauljackson/Educops",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {

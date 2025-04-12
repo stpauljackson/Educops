@@ -51,7 +51,3 @@ export default function RootLayout({
   )
 }
 
-
-
-import './globals.css'
-import Footer from "@/components/commons/Footer"
