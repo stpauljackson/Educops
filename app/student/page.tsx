@@ -5,6 +5,7 @@ import { FreeResources } from "@/components/student/FreeResources";
 import { HowItWorks } from "@/components/student/HowItWorks";
 import Footer from "@/components/commons/Footer";
 import { Navbar } from "@/components/navbar";
+import PsychometricTest from "@/components/student/Psycho";
 
 export default function StudentsPage() {
   return (
