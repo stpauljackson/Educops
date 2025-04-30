@@ -92,3 +92,150 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+/* Abhishek CSS */
+
+/* GLOBAL STYLES */
+/* Base styles for all education pages */
+.education-page {
+  padding: 5rem 2rem;
+  background-color: white;
+  color: #1e3a8a;
+  min-height: 100vh;
+}
+
+.education-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.education-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.education-card {
+  width: 100%;
+  max-width: 32rem;
+  padding: 0 1rem;
+}
+
+.card-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+  border-radius: 0.5rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 
+              0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.card-container:hover {
+  box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.1), 
+              0 10px 10px -5px rgba(59, 130, 246, 0.04);
+  transform: translateY(-0.25rem);
+}
+
+.card-header {
+  padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.card-title {
+  color: #1d4ed8;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-content {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.card-description {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+/* Back button styles */
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  color: #3b82f6;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.back-button:hover {
+  color: #2563eb;
+}
+
+/* Class group styles */
+.class-group {
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 32rem;
+}
+
+.class-group-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+/* Small action buttons */
+.action-button {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.resources-button {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.resources-button:hover {
+  background-color: #bfdbfe;
+}
+
+.practice-button {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.practice-button:hover {
+  background-color: #bbf7d0;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-card {
+  animation: fadeInUp 0.6s ease forwards;
+}

@@ -33,7 +33,7 @@ export function UserTypeModal({ isOpen, onClose }: UserTypeModalProps) {
     <Dialog open={isOpen} onOpenChange={(open) => !open && onClose(selectedType || null)}>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle className="text-center text-2xl">Welcome to EduPortal</DialogTitle>
+          <DialogTitle className="text-center text-2xl">Welcome to EduCops</DialogTitle>
           <DialogDescription className="text-center">
             Please select who you are to help us personalize your experience
           </DialogDescription>
